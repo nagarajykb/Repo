@@ -167,65 +167,54 @@ public class Utility implements WebDriver {
 		Assert.assertTrue(wait.until(ExpectedConditions.urlContains(url)));
 	}
 
-		@Override
 		public void get(String url) {
 		// TODO Auto-generated method stub
 		
 		}
 
-		@Override
 		public String getCurrentUrl() {
 			// TODO Auto-generated method stub
 			return null;
 		}
 	
-		@Override
 		public String getTitle() {
 			// TODO Auto-generated method stub
 			return null;
 		}
 	
-		@Override
 		public List<WebElement> findElements(By locatorName) {
 			  List<WebElement> elements = driver.findElements(locatorName); 
 			  return elements; 
 		}
 	
-		@Override
 		public WebElement findElement(By locatorName) {
 			element = driver.findElement(locatorName);
 			return element;
 		}
 	
-		@Override
 		public String getPageSource() {
 			// TODO Auto-generated method stub
 			return null;
 		}
 	
-		@Override
 		public void close() {
 			// TODO Auto-generated method stub
 			driver.close();
 		}
 	
-		@Override
 		public void quit() {
 			// TODO Auto-generated method stub
 			driver.close();
 		}
-		@Override
 		public Navigation navigate() {
 			// TODO Auto-generated method stub
 			return null;
 		}
 	
-		@Override
 		public Options manage() {
 			// TODO Auto-generated method stub
 			return null;
 		}
-		@Override
 		public Set<String> getWindowHandles() {
 			String currentWindow= getWindowHandle();
 			Set<String> handles = driver.getWindowHandles();
@@ -236,13 +225,11 @@ public class Utility implements WebDriver {
 			return nw;
 		}
 		
-		@Override
 		public String getWindowHandle() {
 			 String window=driver.getWindowHandle();
 			 return window;
 		}
 	
-		@Override
 		public TargetLocator switchTo() {
 			// TODO Auto-generated method stub
 			return (TargetLocator) driver.switchTo().defaultContent();

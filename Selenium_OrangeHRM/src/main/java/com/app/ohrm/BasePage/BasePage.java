@@ -35,23 +35,13 @@ public class BasePage {
 	@FindBy(xpath = "//a[@id='menu_pim_viewEmployeeList']") WebElement pim_EmployeeList;
 	@FindBy(xpath = "//a[@id='menu_pim_addEmployee']") WebElement pim_AddEmployee;
 
-	
-	public void gotoPIM() {  //not used
-	//	Utility.waitForWebElement(driver, clickLink_pim, 20);
-	//	clickLink_pim.click();
-	//	Utility.waitForWebElement(driver, subMenu_addEmployee_link, 5);
-	//	subMenu_addEmployee_link.click();
-	//	subMenu_addEmployee_link.click();
-	}
 	public void goToSubmenu_PIM_AddEmployee() {
 		Utility.waitForWebElement(driver, mainMenu_pim,15);
 	//	util.mouseOverAction(mainMenu_pim);
 		Actions builder = new Actions(driver);
 		builder.moveToElement(mainMenu_pim).build().perform();
 		pim_AddEmployee.click();   //sendKeys(Keys.RETURN);
-	
-	
-	}
+		}
 	public void goToSubmenu_PIM_EmployeeList() {
 		Utility.waitForWebElement(driver, mainMenu_pim,15);
 //		util.mouseOverAction(mainMenu_pim);
@@ -59,7 +49,10 @@ public class BasePage {
 //		builder.moveToElement(mainMenu_pim).build().perform();
 		pim_EmployeeList.click();
 	}
-	
+	public void gotoMyInfo_PersonalDetails() {
+		Utility.waitForWebElement(driver, mMenu_myInfo,15);
+		mMenu_myInfo.click();
+	}
 	
 	
 }

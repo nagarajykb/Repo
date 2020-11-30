@@ -19,4 +19,6 @@ public interface IAutoConst {
 	long ETO=10;
 	String un = "admin";
 	String pw = "admin123";
+	String fname = "Swati";
+	String lname = "Beekly";
 }

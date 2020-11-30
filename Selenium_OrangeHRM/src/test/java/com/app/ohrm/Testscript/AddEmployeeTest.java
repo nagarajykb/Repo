@@ -11,7 +11,7 @@ public class AddEmployeeTest extends BaseTest {
 	
 	@Test
 	public void testAddEmployee() throws InterruptedException {
-		String fn = Excel.getData(XL_PATH, "AddEmployee", 1, 0);
+		String fn = Excel.getData(XL_PATH,"AddEmployee", 1, 0);
 		String ln = Excel.getData(XL_PATH, "AddEmployee", 1, 1);
 		String eUN = Excel.getData(XL_PATH, "AddEmployee", 1, 2);
 		String pwd = Excel.getData(XL_PATH, "AddEmployee", 1, 3);
