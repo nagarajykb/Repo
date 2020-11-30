@@ -2,45 +2,45 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Test testAddEmployee is Pass]]>
+      <![CDATA[Test testValidLogin is Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16496" started-at="2020-11-26T18:40:23 IST" finished-at="2020-11-26T18:40:39 IST">
+  <suite name="Default suite" duration-ms="14324" started-at="2020-11-30T15:30:34 IST" finished-at="2020-11-30T15:30:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16496" started-at="2020-11-26T18:40:23 IST" finished-at="2020-11-26T18:40:39 IST">
-      <class name="com.app.ohrm.Testscript.AddEmployeeTest">
-        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.app.ohrm.Testscript.AddEmployeeTest@1d29cf23]" name="setupReport" is-config="true" duration-ms="208" started-at="2020-11-26T18:40:23 IST" finished-at="2020-11-26T18:40:23 IST">
+    <test name="Default test" duration-ms="14324" started-at="2020-11-30T15:30:34 IST" finished-at="2020-11-30T15:30:48 IST">
+      <class name="com.app.ohrm.Testscript.ValidLogin">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.app.ohrm.Testscript.ValidLogin@1d29cf23]" name="setupReport" is-config="true" duration-ms="262" started-at="2020-11-30T15:30:34 IST" finished-at="2020-11-30T15:30:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.app.ohrm.Testscript.AddEmployeeTest@1d29cf23]" name="OpenApp" is-config="true" duration-ms="8325" started-at="2020-11-26T18:40:23 IST" finished-at="2020-11-26T18:40:31 IST">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.app.ohrm.Testscript.ValidLogin@1d29cf23]" name="OpenApp" is-config="true" duration-ms="8910" started-at="2020-11-30T15:30:34 IST" finished-at="2020-11-30T15:30:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="testAddEmployee()[pri:0, instance:com.app.ohrm.Testscript.AddEmployeeTest@1d29cf23]" name="testAddEmployee" duration-ms="8124" started-at="2020-11-26T18:40:31 IST" finished-at="2020-11-26T18:40:39 IST">
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.app.ohrm.Testscript.ValidLogin@1d29cf23]" name="testValidLogin" duration-ms="5366" started-at="2020-11-30T15:30:43 IST" finished-at="2020-11-30T15:30:48 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddEmployee -->
-        <test-method status="PASS" signature="closeApp2(org.testng.ITestResult)[pri:0, instance:com.app.ohrm.Testscript.AddEmployeeTest@1d29cf23]" name="closeApp2" is-config="true" duration-ms="5" started-at="2020-11-26T18:40:39 IST" finished-at="2020-11-26T18:40:39 IST">
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp2(org.testng.ITestResult)[pri:0, instance:com.app.ohrm.Testscript.ValidLogin@1d29cf23]" name="closeApp2" is-config="true" duration-ms="4" started-at="2020-11-30T15:30:48 IST" finished-at="2020-11-30T15:30:48 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAddEmployee status=SUCCESS method=AddEmployeeTest.testAddEmployee()[pri:0, instance:com.app.ohrm.Testscript.AddEmployeeTest@1d29cf23] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:com.app.ohrm.Testscript.ValidLogin@1d29cf23] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Test testAddEmployee is Pass]]>
+              <![CDATA[Test testValidLogin is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp2 -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.app.ohrm.Testscript.AddEmployeeTest@1d29cf23]" name="endReport" is-config="true" duration-ms="0" started-at="2020-11-26T18:40:39 IST" finished-at="2020-11-26T18:40:39 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.app.ohrm.Testscript.ValidLogin@1d29cf23]" name="endReport" is-config="true" duration-ms="0" started-at="2020-11-30T15:30:48 IST" finished-at="2020-11-30T15:30:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.app.ohrm.Testscript.AddEmployeeTest -->
+      </class> <!-- com.app.ohrm.Testscript.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

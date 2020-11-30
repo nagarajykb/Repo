@@ -12,7 +12,7 @@ import com.app.ohrm.Util.Utility;
 
 public class BasePage {
 	public WebDriver driver;
-	Utility util = new Utility(driver);
+//	Utility util = new Utility(driver);
 	public BasePage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
