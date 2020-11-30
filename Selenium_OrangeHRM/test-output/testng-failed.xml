@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.app.ohrm.Testscript.AddEmployeeTest">
+      <class name="com.app.ohrm.Testscript.PersonalDetailsTest">
         <methods>
           <include name="setupReport"/>
           <include name="closeApp2"/>
           <include name="OpenApp"/>
+          <include name="testPersonalDetails_MyInfo"/>
           <include name="endReport"/>
-          <include name="testAddEmployee"/>
         </methods>
-      </class> <!-- com.app.ohrm.Testscript.AddEmployeeTest -->
+      </class> <!-- com.app.ohrm.Testscript.PersonalDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
