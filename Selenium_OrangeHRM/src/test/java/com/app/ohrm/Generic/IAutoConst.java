@@ -19,6 +19,9 @@ public interface IAutoConst {
 	long ETO=10;
 	String un = "admin";
 	String pw = "admin123";
-	String fname = "Swati";
-	String lname = "Beekly";
+	String mStatus = "Single";
+	String selNlty = "Indian";
+	String dateValue = "1997-07-15";
+	String dateValue1 = "24";
+
 }

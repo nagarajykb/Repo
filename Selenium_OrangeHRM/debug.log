@@ -8,3 +8,6 @@
 [1129/224918.467:ERROR:file_io_win.cc(180)] CreateFile C:\Users\Dell\AppData\Local\Temp\scoped_dir3660_584532518\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
 [1130/171823.191:ERROR:file_io_win.cc(180)] CreateFile C:\Users\Dell\AppData\Local\Temp\scoped_dir17236_2119037203\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
 [1130/172431.611:ERROR:file_io_win.cc(180)] CreateFile C:\Users\Dell\AppData\Local\Temp\scoped_dir26296_1371299061\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1130/225704.991:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/001515.943:ERROR:file_io_win.cc(180)] CreateFile C:\Users\Dell\AppData\Local\Temp\scoped_dir16452_729245459\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1201/013325.342:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

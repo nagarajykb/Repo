@@ -8,8 +8,8 @@
           <include name="setupReport"/>
           <include name="closeApp2"/>
           <include name="OpenApp"/>
-          <include name="testPersonalDetails_MyInfo"/>
           <include name="endReport"/>
+          <include name="testPerDetails_MyInfo"/>
         </methods>
       </class> <!-- com.app.ohrm.Testscript.PersonalDetailsTest -->
     </classes>

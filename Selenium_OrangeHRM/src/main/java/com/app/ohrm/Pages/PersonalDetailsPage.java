@@ -1,5 +1,6 @@
 package com.app.ohrm.Pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,6 +12,7 @@ import com.app.ohrm.Util.Utility;
 
 public class PersonalDetailsPage extends BasePage {
 	
+	Utility util = new Utility(driver);
 	public PersonalDetailsPage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
@@ -22,9 +24,15 @@ public class PersonalDetailsPage extends BasePage {
 	
 	@FindBy(xpath="//input[@id='personal_optGender_2']") private WebElement selectGender_Rbtn;
 	@FindBy(xpath="//select[@id='personal_cmbMarital']") private WebElement selectMaritalSt_Dropdown;
-	@FindBy(xpath="personal_cmbNation") private WebElement selectNationality_Dropdown;
-//	@FindBy(xpath="//input[@id='personal_DOB']") private WebElement selectDOB;
-	@FindBy(id="//input[@id='btnSave']") private WebElement saveBTN;
+//	public static final By selectMaritalSt_Dropdown = By.xpath("//b[contains(text(),'PIM')]");
+	
+	@FindBy(xpath="//select[@id='personal_cmbNation']") private WebElement selectNationality_Dropdown;
+//	public static final By selectNationality_Dropdown = By.id("personal_cmbNation");
+	
+	@FindBy(xpath="//input[@id='personal_DOB']") private WebElement enterDOB_DateField;
+	public static final By allDates = By.xpath("//a[@class='ui-state-default']");
+	
+	@FindBy(xpath="//input[@id='btnSave']") private WebElement saveBTN;
 	
 	public void clickEditBTN() {
 		editBTN.click();
@@ -41,18 +49,28 @@ public class PersonalDetailsPage extends BasePage {
 		Utility.waitForWebElement(driver, selectGender_Rbtn, 20);
 		selectGender_Rbtn.click();
 	}
-	public void selectMaritalStatus_DropdnList(String mStatus) {
+	public void selectMaritalStatus_DropdnList(String value) {
 		Utility.waitForWebElement(driver, selectMaritalSt_Dropdown, 20);
 		Select select = new Select(selectMaritalSt_Dropdown);
-		select.selectByValue(mStatus);
+		select.selectByValue(value);
+	//	util.dropDownSelectByValue(selectMaritalSt_Dropdown, value);
 	}
 
-	public void selectNationlty_DropdownList(String selNationality) {
-		Utility.waitForWebElement(driver, selectNationality_Dropdown, 20);
+	public void selectNationlty_DropdownList(String value) {
+		Utility.waitForWebElement(driver, selectNationality_Dropdown, 60);
 		Select select = new Select(selectNationality_Dropdown);
-		select.selectByValue(selNationality);
+		select.selectByVisibleText(value);
+	//	util.dropDownSelectByValue(selectNationality_Dropdown, selNality);
+		
 	}
+	public void setDateOfBirth(String dateValue, String dateValue1) {
+		Utility.waitForWebElement(driver, enterDOB_DateField, 20);
+		enterDOB_DateField.clear();
+		enterDOB_DateField.sendKeys(dateValue);
+		util.selectDateFromCalendar(allDates, dateValue1);
+		}
 	public void clickSaveBTN() {
+		Utility.waitForWebElement(driver, saveBTN, 30);
 		saveBTN.click();
 	}
 }

@@ -5,24 +5,24 @@
       <![CDATA[Test testPerDetails_MyInfo is Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17082" started-at="2020-11-30T19:30:51 IST" finished-at="2020-11-30T19:31:08 IST">
+  <suite name="Default suite" duration-ms="25744" started-at="2020-12-01T01:53:29 IST" finished-at="2020-12-01T01:53:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17082" started-at="2020-11-30T19:30:51 IST" finished-at="2020-11-30T19:31:08 IST">
+    <test name="Default test" duration-ms="25744" started-at="2020-12-01T01:53:29 IST" finished-at="2020-12-01T01:53:54 IST">
       <class name="com.app.ohrm.Testscript.PersonalDetailsTest">
-        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="setupReport" is-config="true" duration-ms="241" started-at="2020-11-30T19:30:51 IST" finished-at="2020-11-30T19:30:51 IST">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="setupReport" is-config="true" duration-ms="226" started-at="2020-12-01T01:53:28 IST" finished-at="2020-12-01T01:53:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="OpenApp" is-config="true" duration-ms="9040" started-at="2020-11-30T19:30:51 IST" finished-at="2020-11-30T19:31:00 IST">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="OpenApp" is-config="true" duration-ms="8656" started-at="2020-12-01T01:53:29 IST" finished-at="2020-12-01T01:53:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="testPerDetails_MyInfo()[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="testPerDetails_MyInfo" duration-ms="7981" started-at="2020-11-30T19:31:00 IST" finished-at="2020-11-30T19:31:08 IST">
+        <test-method status="PASS" signature="testPerDetails_MyInfo()[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="testPerDetails_MyInfo" duration-ms="17040" started-at="2020-12-01T01:53:37 IST" finished-at="2020-12-01T01:53:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPerDetails_MyInfo -->
-        <test-method status="PASS" signature="closeApp2(org.testng.ITestResult)[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="closeApp2" is-config="true" duration-ms="5" started-at="2020-11-30T19:31:08 IST" finished-at="2020-11-30T19:31:08 IST">
+        <test-method status="PASS" signature="closeApp2(org.testng.ITestResult)[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="closeApp2" is-config="true" duration-ms="4" started-at="2020-12-01T01:53:54 IST" finished-at="2020-12-01T01:53:54 IST">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- closeApp2 -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="endReport" is-config="true" duration-ms="1" started-at="2020-11-30T19:31:08 IST" finished-at="2020-11-30T19:31:08 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.app.ohrm.Testscript.PersonalDetailsTest@1d29cf23]" name="endReport" is-config="true" duration-ms="0" started-at="2020-12-01T01:53:54 IST" finished-at="2020-12-01T01:53:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
