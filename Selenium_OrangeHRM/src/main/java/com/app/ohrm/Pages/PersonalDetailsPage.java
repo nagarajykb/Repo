@@ -67,8 +67,15 @@ public class PersonalDetailsPage extends BasePage {
 		Utility.waitForWebElement(driver, enterDOB_DateField, 20);
 		enterDOB_DateField.clear();
 		enterDOB_DateField.sendKeys(dateValue);
-		util.selectDateFromCalendar(allDates, dateValue1);
+	//	util.selectDateFromCalendar(allDates, dateValue1);
+		
 		}
+	public void selectDOB() {
+		Utility.waitForWebElement(driver, enterDOB_DateField, 20);
+//		util.dropDownSelectByIndex(locatorName, i);
+//		util.dropDownSelectByIndex(locatorName, i);
+//		util.selectDateFromCalendar(allDates, dateValue1);
+	}
 	public void clickSaveBTN() {
 		Utility.waitForWebElement(driver, saveBTN, 30);
 		saveBTN.click();
